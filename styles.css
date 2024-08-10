@@ -1,0 +1,62 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor de la imagen */
+.image-container {
+    display: inline-block;
+    padding: 10px;
+    background: #eee;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo de los botones */
+.buttons {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    gap: 100px; /* Espacio entre los botones */
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button.yes {
+    background: #28a745;
+    color: white;
+}
+
+.button.no {
+    background: #dc3545;
+    color: white;
+}

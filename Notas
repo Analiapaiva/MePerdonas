@@ -1,0 +1,23 @@
+Helloo
+Mi Nombre es Analia Paiva 
+Hoy quiero que pierdas el miedo a programar 
+veni vamos a crear tu primera Pagina Web 
+Haremos un juiguito dinamico de Me Perdonas 
+¿Como lo Haremos ?
+De seguro escuchates de Html,Css y JavaScrit 
+Pero hoy te mostrare como hacer Magia con ellos no es Magia es Programacion!!
+ El Primer Paso es un usar un editor de codigo 
+ Que es un editor de codigo??
+ Es una Herramienta para escribir y editar el codigo..Codigo con el cual creamos Paginas Web,Aplicaciones y demas Programas.Entonces podemos decir que es como un Word para Programadores 
+
+ Empenecemos con Html a darle la estructura 
+ Dentro de la Etiqueta <body>
+ Ira un <h1> Que dira Me Perdonas?
+    <h1> Me Perdonas? </h1>
+    tambien usaremos un etiqueta <div>
+    Las etiquetas Div son como Cajitas donde podemos dibivir el contenido 
+    Usaremos estos div para que la imagen no hagarren todo la pagina
+    Luego de descargar la Imagen de este Raton y ponerlo en la Carpeta usaremos una etiqueta <img> dentro de esta etiqueta pondremos un src" con el nombre con el Cual guardamos la Imagen 
+     <img src="Raton.jpg" alt="Raton">
+     Otra de Las Etiquetas Principales son los 
+     <button> SI y Otro Para El No
