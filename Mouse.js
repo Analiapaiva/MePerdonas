@@ -7,14 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
         scaleFactor += 0.2; // Incrementa la escala en cada clic en "No"
         yesButton.style.transform = `scale(${scaleFactor})`; // Agranda el botón "Sí" con el nuevo factor
         noButton.style.transform = 'scale(0.7)';  // Achica el botón "No"
-        alert('¿Por qué no me perdonas?'); // Mostrar la alerta
+        alert('Perdoname Porfis 🙏'); // Mostrar la alerta con un emoji
     });
 
     yesButton.addEventListener('click', () => {
-        alert('Gracias por perdonarme'); // Mostrar la alerta de agradecimiento
-        // Reinicia los tamaños de los botones a sus estados originales si se desea
-        yesButton.style.transform = 'scale(1)';  
-        noButton.style.transform = 'scale(1)';
-        scaleFactor = 1.5; // Reinicia el factor de escala para el próximo clic en "No"
+        // Mostrar la alerta de agradecimiento con un emoji
+        alert('Gracias por perdonarme!!! 😄');
+        // Ocultar los botones después de la alerta
+        yesButton.style.display = 'none';
+        noButton.style.display = 'none';
     });
 });
