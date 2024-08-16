@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     yesButton.addEventListener('click', () => {
         // Mostrar la alerta de agradecimiento con un emoji
-        alert('Gracias por perdonarme!!! 😄');
+        alert('Gano el Amor!!! 😄');
         // Ocultar los botones después de la alerta
         yesButton.style.display = 'none';
         noButton.style.display = 'none';
