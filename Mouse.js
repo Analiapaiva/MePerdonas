@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
         scaleFactor += 0.2; // Incrementa la escala en cada clic en "No"
         yesButton.style.transform = `scale(${scaleFactor})`; // Agranda el botón "Sí" con el nuevo factor
         noButton.style.transform = 'scale(0.7)';  // Achica el botón "No"
-        alert('Perdoname Porfis 🙏'); // Mostrar la alerta con un emoji
     });
 
     yesButton.addEventListener('click', () => {
